@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+  <header>
+    <h1>User Profile</h1>
+  </header>
+  <main>
+    <section class="profile-section">
+      <h2>Welcome, <span id="username">John Doe</span>!</h2>
+      <div>
+        <p><strong>Betting History:</strong></p>
+        <ul id="betting-history">
+          <!-- User's betting history will be dynamically added here -->
+        </ul>
+      </div>
+      <div>
+        <p><strong>Wins:</strong> <span id="wins">5</span></p>
+        <p><strong>Losses:</strong> <span id="losses">3</span></p>
+        <p><strong>Remaining Balance:</strong> Rs <span id="balance">1000</span></p>
+      </div>
+      <button id="edit-profile-btn">Edit Profile</button>
+    </section>
+  </main>
+  <script src="script3.js"></script>
+</body>
+</html>
